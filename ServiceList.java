@@ -8,14 +8,11 @@ public enum ServiceList {
     ENGINE_CHECK("Sprawdzenie silnika"),
     BATTERY_REPLACENT("Wymiana akumulatora");
 
-
     private String plName;
 
     ServiceList( String plName) {
-
         this.plName = plName;
     }
-
 
     public String getPlName() {
         return plName;

@@ -25,7 +25,6 @@ public class ClientCar  {
 
     @Override
     public String toString() {
-        return nameOfCar
-                ;
+        return nameOfCar;
     }
 }

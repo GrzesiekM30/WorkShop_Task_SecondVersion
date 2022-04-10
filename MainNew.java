@@ -61,11 +61,11 @@ public class MainNew {
         System.out.println("++++++++++");
         kowalskiJan.showCarList();
         System.out.println("++++++++++");
-        kowalskiJan.showServisList();
+        kowalskiJan.showServiceList();
         System.out.println("++++++++++");
         wisniewskiMichal.showCarList();
         System.out.println("++++++++++");
-        wisniewskiMichal.showServisList();
+        wisniewskiMichal.showServiceList();
         System.out.println("++++++++++");
         workshopRecorsd.customersRecors();
         System.out.println("++++++++++");
