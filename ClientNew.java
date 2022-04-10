@@ -57,12 +57,12 @@ public class ClientNew {
         carsList.stream()
                 .forEach(System.out::println);
     }
-    public void showServisList(){
+    public void showServiceList(){
         System.out.println(surname + " service list:");
         serviceList.stream()
                 .forEach(System.out::println);
     }
-    public  String clientExpenses(){
+    public String clientExpenses(){
         double expenses = getServiceList().stream()
                 .map(servicePerformed -> servicePerformed.getPrice())
                 .reduce(0.0,(price1, price2)-> price1 + price2);

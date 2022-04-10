@@ -1,17 +1,18 @@
 package sda.javaadvanced.basic.carRepairShopNew;
 
+import java.math.BigDecimal;
+
 public class ServicePerformed {
-    private double price;
+    private BigDecimal price;
     private ServiceList service;
 
     public ServicePerformed(double price, ServiceList service) {
-        this.price = price;
+        this.price = BigDecimal.valueOf(price);
         this.service = service;
     }
 
-
     public double getPrice() {
-        return price;
+        return price.doubleValue();
     }
 
     public ServiceList getService() {
