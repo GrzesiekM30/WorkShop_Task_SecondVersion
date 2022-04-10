@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class WorkshopRecorsd {
+public class WorkshopRecords {
     private List<ClientNew> clients = new ArrayList<ClientNew>();
     private List<ServicePerformed> servicePerformedList = new ArrayList<>();
 

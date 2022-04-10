@@ -5,7 +5,7 @@ import static sda.javaadvanced.basic.carRepairShopNew.ServiceList.*;
 
 public class MainNew {
     public static void main(String[] args) {
-        WorkshopRecorsd workshopRecorsd = new WorkshopRecorsd();
+        WorkshopRecords workshopRecorsd = new WorkshopRecords();
         ClientNew kowalskiJan = new ClientNew("Jan","Kowalski");
         ClientCar kowalskiFirstCar = new ClientCar("Ford",1.5,1999);
         ClientCar kowalskiSecondCar = new ClientCar("Skoda",1.6,1998);
