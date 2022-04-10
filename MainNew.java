@@ -63,6 +63,10 @@ public class MainNew {
         System.out.println("++++++++++");
         kowalskiJan.showServisList();
         System.out.println("++++++++++");
+        wisniewskiMichal.showCarList();
+        System.out.println("++++++++++");
+        wisniewskiMichal.showServisList();
+        System.out.println("++++++++++");
         workshopRecorsd.customersRecors();
         System.out.println("++++++++++");
         workshopRecorsd.serviceRecors();

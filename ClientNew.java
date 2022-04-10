@@ -53,7 +53,7 @@ public class ClientNew {
     }
 
     public void showCarList(){
-        System.out.println(surname + " cars list:");
+        System.out.println(surname + " car list:");
         carsList.stream()
                 .forEach(System.out::println);
     }
